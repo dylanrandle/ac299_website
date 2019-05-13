@@ -11,9 +11,10 @@ Over the last few months, I ([Dylan Randle](https://dylanrandle.github.io/)) hav
 The solutions of differential equations *are functions*, so we believe that *learning the function* is
 interesting in its own right. We are excited by this work for two reasons: first, we believe that having
 a closed-form solution to a given ODE or PDE system could be very useful for solving an inverse-type problem
-(e.g. inverting the neural network). Second, we hope that learning the function well could lead to superior
-solutions, especially when it comes to a) interpolating between grid points and b) transferring to a slightly
-different system. We are in the early days of these methods but I am excited by our group's progress.
+(e.g. inverting the neural network to find locations that match a certain result). Second, we hope that learning the
+function well could lead to superior solutions, especially when it comes to a) interpolating between grid points and
+b) transferring to a slightly different system. We are in the early days of these methods but I am excited by our
+group's progress.
 
 ![harvard](pics/SEAS_IACS.png){:height="100px" width="400px"}
 
