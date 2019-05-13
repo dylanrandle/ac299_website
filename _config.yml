@@ -1,0 +1,9 @@
+theme: jekyll-theme-modernist
+title: AC299R Research Website
+description: Making MLPs Great Again
+baseurl:
+markdown: kramdown
+kramdown:
+    math_engine: mathjax
+    input: GFM
+    syntax_highlighter: rouge
