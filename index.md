@@ -5,8 +5,8 @@ layout: default
 
 # Preamble
 
-Over the last few months, [I](https://dylanrandle.github.io/) have been working with *Pavlos Protopapas*,
-*David Sondak*, and the rest of the researchers at *Harvard IACS* to develop methods for
+Over the last few months, I ([Dylan Randle](https://dylanrandle.github.io/)) have been working with [Pavlos Protopapas](https://iacs.seas.harvard.edu/people/pavlos-protopapas),
+[David Sondak](https://www.seas.harvard.edu/directory/dsondak), and the rest of the researchers at [Harvard IACS](https://iacs.seas.harvard.edu/home) to develop methods for
 **training neural networks to solve differential equations in a fully unsupervised fashion.**
 The solutions of differential equations *are functions*, so we believe that *learning the function* is
 interesting in its own right. We are excited by this work for two reasons: first, we believe that having
