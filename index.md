@@ -1,5 +1,6 @@
 ---
 title: Using Neural Networks to Solve Differential Equations
+layout: default0
 ---
 
 # Preamble
