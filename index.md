@@ -5,7 +5,7 @@ layout: default0
 
 # Preamble
 
-Over the last few months, I have been working with *Pavlos Protopapas*,
+Over the last few months, [I](https://dylanrandle.github.io/) have been working with *Pavlos Protopapas*,
 *David Sondak*, and the rest of the researchers at *Harvard IACS* to develop methods for
 **training neural networks to solve differential equations in a fully unsupervised fashion.**
 
@@ -17,7 +17,7 @@ flow case. This is a nice example as there is a relatively straightforward numer
 solution we can compare to; yet, the equation is very complicated as it involves second-
 order and non-linear terms.
 
-[mixing_length_equation](pics/mixing_length_equation.png)
+![mixing_length_equation](pics/mixing_length_equation.png)
 
 In the course of working with this equation, I experimented with various different techniques
 to improve the convergence of the neural network to an accurate solution. First and foremost
@@ -37,4 +37,4 @@ In our case, we are performing all of our training for solving differential equa
 unsupervised manner. As such, it requires re-formulating the GAN framework. Below we present
 our high-level method.
 
-[gan_diffeq_diagram](pics/gan_diffeq_diagram.png)
+![gan_diffeq_diagram](pics/gan_diffeq_diagram.png)
