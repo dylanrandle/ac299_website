@@ -5,9 +5,9 @@ layout: default0
 
 # Preamble
 
-Over the course of the last few months, I have been working with Pavlos Protopapas,
-David Sondak, and the rest of the researchers at Harvard IACS to develop methods for
-training neural networks to solve differential equations in a fully unsupervised fashion.
+Over the last few months, I have been working with *Pavlos Protopapas*,
+*David Sondak*, and the rest of the researchers at *Harvard IACS* to develop methods for
+**training neural networks to solve differential equations in a fully unsupervised fashion.**
 
 # Starting Out: Navier-Stokes
 
@@ -17,11 +17,7 @@ flow case. This is a nice example as there is a relatively straightforward numer
 solution we can compare to; yet, the equation is very complicated as it involves second-
 order and non-linear terms.
 
-$$
-\begin{equation}
-y=x
-\end{equation}
-$$
+[mixing_length_equation](pics/mixing_length_equation.png)
 
 In the course of working with this equation, I experimented with various different techniques
 to improve the convergence of the neural network to an accurate solution. First and foremost
@@ -35,6 +31,10 @@ the convergence of the neural net.
 # "Generating" New Ideas: Generative Adversarial Networks
 
 Inspired by the recent success of Generative Adversarial Networks (GANs) in various tasks,
-we decided to see if GANs could be apply to our case. This trick here is this GANs are
+we decided to see if GANs could be apply to our case. The trick here is that GANs are
 most widely trained in scenarios where we have data that describes the data-generating process.
-In our case, we are performing all of
+In our case, we are performing all of our training for solving differential equations in an
+unsupervised manner. As such, it requires re-formulating the GAN framework. Below we present
+our high-level method.
+
+[gan_diffeq_diagram](pics/gan_diffeq_diagram.png)
