@@ -1,6 +1,6 @@
 theme: jekyll-theme-modernist
 title: AC299R Research Website
-description: Solutions of Differential Equations with Neural Networks
+description: Neural Networks for Differential Equations
 baseurl:
 markdown: kramdown
 kramdown:
