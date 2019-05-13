@@ -1,6 +1,6 @@
 theme: jekyll-theme-modernist
 title: AC299R Research Website
-description: Making MLPs Great Again
+description: Learning Closed-Form (Neural-Net) Solutions
 baseurl:
 markdown: kramdown
 kramdown:
