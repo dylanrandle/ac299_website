@@ -18,6 +18,9 @@ function well could lead to superior solutions, especially when it comes to a) i
 b) transferring to a slightly different system. We are in the early days of these methods but I am excited by our
 group's progress.
 
+*Disclaimer*: we are still working on a paper so the code is private. However, if you would like to see the Python
+code implementing these methods, please email me: dylanrandle@g.harvard.edu.
+
 # Starting Out: Navier-Stokes
 
 Leveraging Sondak's expertise in the Navier-Stokes equations of fluid flow, I developed
