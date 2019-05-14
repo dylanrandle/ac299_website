@@ -3,9 +3,9 @@ title: Using Neural Networks to Solve Differential Equations
 layout: default
 ---
 
-# Preamble
-
 ![harvard](pics/SEAS_IACS.png){:height="100px" width="400px"}
+
+# Preamble
 
 Over the last few months, I ([Dylan Randle](https://dylanrandle.github.io/)) have been working with [Pavlos Protopapas](https://iacs.seas.harvard.edu/people/pavlos-protopapas),
 [David Sondak](https://www.seas.harvard.edu/directory/dsondak), and the rest of the researchers at [Harvard IACS](https://iacs.seas.harvard.edu/home) to develop methods for
@@ -52,8 +52,8 @@ the convergence of the neural net.
 # "Generating" New Ideas: Generative Adversarial Networks
 
 Inspired by the recent success of Generative Adversarial Networks (GANs) in various tasks,
-we decided to see if GANs could be apply to our case. The trick here is that GANs are
-most widely trained in scenarios where we have data that describes the data-generating process.
+we decided to see if GANs could be applied to solving differential equations. The trick here is
+that GANs are most widely trained in scenarios where we have data that describes the data-generating process.
 In our case, we are performing all of our training for solving differential equations in an
 unsupervised manner. As such, it requires re-formulating the GAN framework. Below we present
 our high-level method.
@@ -63,10 +63,11 @@ our high-level method.
 ## Experiments and Results
 
 1. [First Order Equation](https://dylanrandle.github.io/ac299_website/GAN.html#baby-equation)
-    - Solving With A GAN
-    - Comparing to Regular Method
-    - Probing Stability
+    - Solving `dx_dt = -x` With A GAN
+    - Comparing to Regular "Lagaris" Method
+    - Training Stability
 2. [Second Order Equation](https://dylanrandle.github.io/ac299_website/GAN.html#new-equation-simple-harmonic-oscillator)
-    - Solving as a System
-    - Using a Symplectic Structures
+    - Solving `d2x_dt2 = -x` With A GAN
+    - Solving As A System
+    - Using a Symplectic Structure
     - Trying WGAN And Various Tricks
