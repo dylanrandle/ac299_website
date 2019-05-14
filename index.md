@@ -66,11 +66,11 @@ our high-level method.
 ## Experiments and Results
 
 1. [First Order Equation](https://dylanrandle.github.io/ac299_website/GAN.html#baby-equation)
-    - Solving `dx_dt = -x` With A GAN
+    - Solving $$ \frac{dx}{dt} = -x $$ With A GAN
     - Comparing to Regular "Lagaris" Method
     - Training Stability
 2. [Second Order Equation](https://dylanrandle.github.io/ac299_website/GAN.html#new-equation-simple-harmonic-oscillator)
-    - Solving `d2x_dt2 = -x` With A GAN
+    - Solving $$ \frac{d^{2}x}{dt^2} = -x $$ With A GAN
     - Solving As A System
     - Using a Symplectic Structure
     - Trying WGAN And Various Tricks
