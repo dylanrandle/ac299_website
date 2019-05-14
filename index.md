@@ -74,3 +74,5 @@ our high-level method.
     - Solving As A System
     - Using a Symplectic Structure
     - Trying WGAN And Various Tricks
+
+[Full Notebook](https://dylanrandle.github.io/ac299_website/GAN.html)
